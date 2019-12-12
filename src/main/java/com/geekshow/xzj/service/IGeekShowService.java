@@ -1,4 +1,4 @@
-package com.geekshow.service;
+package com.geekshow.xzj.service;
 
 public interface IGeekShowService {
 

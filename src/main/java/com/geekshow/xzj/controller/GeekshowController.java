@@ -1,4 +1,4 @@
-package com.geekshow.controller;
+package com.geekshow.xzj.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -6,11 +6,11 @@ import java.io.PrintWriter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.geekshow.annotation.Autowired;
-import com.geekshow.annotation.Controller;
-import com.geekshow.annotation.RequestMapping;
-import com.geekshow.annotation.RequestParam;
-import com.geekshow.service.IGeekShowService;
+import com.geekshow.xzj.annotation.Autowired;
+import com.geekshow.xzj.annotation.Controller;
+import com.geekshow.xzj.annotation.RequestMapping;
+import com.geekshow.xzj.annotation.RequestParam;
+import com.geekshow.xzj.service.IGeekShowService;
 
 @Controller
 @RequestMapping("/geekshow")

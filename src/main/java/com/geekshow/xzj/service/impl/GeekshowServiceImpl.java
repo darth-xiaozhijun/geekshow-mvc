@@ -1,7 +1,7 @@
-package com.geekshow.service.impl;
+package com.geekshow.xzj.service.impl;
 
-import com.geekshow.annotation.Service;
-import com.geekshow.service.IGeekShowService;
+import com.geekshow.xzj.annotation.Service;
+import com.geekshow.xzj.service.IGeekShowService;
 
 @Service("geeshowServiceImpl") //map.put("geeshowServiceImpl",new GeekShowServiceImpl)
 public class GeekshowServiceImpl implements IGeekShowService {
