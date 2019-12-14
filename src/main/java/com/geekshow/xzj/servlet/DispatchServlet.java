@@ -49,10 +49,13 @@ public class DispatchServlet extends HttpServlet {
 		// 把所有的bean扫描---扫描所有的class文件
 		scanPackage("com.geekshow");
 
+		//实例化对象
 		doInstance();
 
+		//依赖注入
 		doIoc();
 
+		//地址路径映射到具体方法
 		buildUrlMapping();
 	}
 
